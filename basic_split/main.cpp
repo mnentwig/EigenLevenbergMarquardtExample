@@ -1,7 +1,5 @@
-// compile with
-// g++ -static -Ieigen-3.4.0 basic_LM_example.cpp
-// with eigen-3.4.0 in same
-// ~16s compile time
+// The code in this file goes into an object file separate from the LM solver, enabling faster compilation cycles
+
 #include <Eigen/Dense>
 #include "solver.h"
 #include <iostream>

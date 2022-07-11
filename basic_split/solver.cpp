@@ -1,5 +1,7 @@
-#include "solver.h"
+// recompilation of this file is slow as it assembles the whole LM algorithm with QR factorization etcetera.
+// Use the example to put everything here that does not change frequently.
 
+#include "solver.h"
 #include <Eigen/Dense>
 #include <unsupported/Eigen/NonLinearOptimization>  // Eigen::LevenbergMarquardt
 #include <unsupported/Eigen/NumericalDiff>          // Eigen::NumericalDiff
