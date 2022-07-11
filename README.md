@@ -1,6 +1,13 @@
 # EigenLevenbergMarquardtExample
+A cleaned up code sample for Eigen 3.4.0's "Levenberg-Marquardt" nonlinear optimization. 
+
+There are two versions:
+* simple
+* compile time optimized
+
+Note: use -O1 with Eigen for faster compile time, compared to default -O0
+
 ### basic_LM_example
-A cleaned up code sample for Eigen 3.4.0's "Levenberg-Marquardt" nonlinear optimization
 
 * Template functor class provides fields expected by LM and num. diff
 * specific objective function derives from above
